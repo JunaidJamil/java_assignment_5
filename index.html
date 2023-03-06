@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.
+ 
+//  let a=+prompt("Enter 1st Number"),b=+prompt("Enter 2nd number");
+//   sum = a+b;
+//  document.write("sum of "+a+"and "+b+" is "+sum+" <br>");
+
+// // 2. Repeat task1 for subtraction, multiplication, division & modulus.
+
+// let c=+prompt("Enter Number for subtraction, multiplication, division & modulus.")
+// ,d=+prompt("Enter Number");
+//   sub = c-d;
+//  document.write("sub of "+c+" and "+d+" is "+sub+" <br> ");
+//  mult = c*d;
+//  document.write("multiplication of "+c+" and "+d+" is "+mult+" <br> ");
+//  div = c/d;
+//  document.write("Division of "+c+" and "+d+" is "+div+" <br> ");
+//  modul = c%d;
+//  document.write("modulus of "+c+" and "+d+" is "+modul+"<br> ");
+
+
+  document.write(" <h1>Question 3 ANSWER </h1>");
+
+//  3. Do the following using JS Mathematic Expressions
+// a. Declare a variable.
+// b. Show the value of variable in your browser like “Value
+// after variable declaration is: ??”.
+// c. Initialize the variable with some number.
+// d. Show the value of variable in your browser like “Initial
+// value: 5”.
+// e. Increment the variable.
+// f. Show the value of variable in your browser like “Value
+// after increment is: 6”.
+// g. Add 7 to the variable.
+// h. Show the value of variable in your browser like “Value
+// after addition is: 13”.
+// i. Decrement the variable.
+// j. Show the value of variable in your browser like “Value
+// after decrement is: 12”.
+// k. Sviding the variable’s valhow the remainder after diue
+// by 3.
+// l. Output : “The remainder is : 0”.
+
+let variable = 20 , variable2;
+document.write("initial value is :"+variable+" <br>");
+ 
+ variable2= ++variable  ;
+document.write("value after increment is "+variable2+"<br>");
+
+variable=variable+7;
+document.write("value after addition is  "+variable+"<br>");
+
+variable= --variable;
+document.write(" value after Decrement is "+variable+"<br>");
+
+variable=variable%27;
+document.write(" After divide by 27  the REMINDER is "+variable+"<br>");
+
+
+
+
+document.write("<h1> Question 4 </h1>");
+
+// 4. Cost of one movie ticket is 600 PKR. Write a script to
+// store
+// ticket price in a variable & calculate the cost of buying 5
+// tickets
+// to a movie.
+
+let ticket = "600pkr", cost; 
+
+cost = 600*5;
+
+document.write("Total cost of 5 ticket is "+cost+" ")
+ 
+
+
+document.write("<h1> Question 5 </h1>")
+// 5. Write a script to display multiplication table of any
+// number in your browser. E.g
+  
+let a= 2; 
+document.write("2x1="+2*1+"<br> ")
+document.write("2x2="+2*2+"<br> ")
+document.write("2x3="+2*3+"<br> ")
+document.write("2x4="+2*4+"<br> ")
+document.write("2x5="+2*5+"<br> ")
+document.write("2x6="+2*6+"<br> ")
+document.write("2x7="+2*7+"<br> ")
+document.write("2x8="+2*8+"<br> ")
+document.write("2x9="+2*9+"<br> ")
+document.write("2x10="+2*10+"<br> ")
+
+
+document.write("<h1> Question 6 </h1>")
+
+// 6. The Temperature Converter: It’s hot out! Let’s make a
+// converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+
+let Celsius="25",F,C ,Fahrenheit=70;
+F = (Celsius * 9/5)+32;
+document.write("25°c is "+F+" °F <br>");
+
+C = (Fahrenheit - 32) * 5/9;
+document.write("70°F is "+C+"°c");
+
+document.write("<h1> Question 8 </h1>");
+
+// 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser
+
+let total_marks = 980 ,mark_obtained= 804,percentage;
+
+percentage=( mark_obtained/total_marks )*100;
+
+document.write("The Percentage is "+percentage+"%");
+
+
+document.write("<h1> Question 9 </h1>");
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+
+let dollars=10 , Riyals=25,pkr1;
+
+pkr1=(dollars*104.80)+(Riyals*28);
+
+document.write("The total currency in pkr is "+pkr1+"");
+
+
+document.write("<h1> Question 10 </h1>");
+// 10. Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+    let num=10;
+    
+    num=num+5;
+    num=num*10;
+    num=num/2;
+     document.write("Number is after calculation "+num+"");
+    
+     document.write("<h1> Question 11 </h1>");
+//      11. The Age Calculator: Forgot how old someone is?
+// Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored
+// values.
+
+let current=2023 , birth=2001, Your_age;
+Your_age= current-birth;
+document.write("your age is "+Your_age+"");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.write("<h1> Question 12 </h1>");
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+ 
+let r=20,pie=3.142,circle,area;
+ circle=2*pie*r;
+ document.write("radius of circle "+r+"<br>");
+ document.write("circle "+circle+" <br>");
+
+area= pie*(r*r);
+document.write("Area is "+area+"");
+
+
+    </script>
+</body>
+</html>
